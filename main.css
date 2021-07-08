@@ -1,0 +1,219 @@
+#ajout_button {background-image: linear-gradient(to right, #6190E8 0%, #A7BFE8  51%, #6190E8  100%)}
+#ajout_button {
+margin: 10px;
+padding: 15px 45px;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+}
+
+#ajout_button:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+
+#ret_button {background-image: linear-gradient(to right, #1c92d2 0%, #f2fcfe  51%, #1c92d2  100%)}
+#ret_button {
+margin: 10px;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 5px #eee;
+border-radius: 10px;
+}
+
+#ret_button:hover {
+background-position: right center; 
+color: #fff;
+text-decoration: none;
+}
+        
+
+#retour_button{
+margin: 10px;
+padding: 15px 30px;
+transition: 0.5s;
+background-size: 200% auto;
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+}         
+         
+#continue_button {background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%)}
+#continue_button {
+margin: 10px;
+padding: 15px 45px;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+}
+
+#continue_button:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+}
+
+
+         
+#main_win{
+background-image: url("19007-01.jpg");
+background-position: center;
+  background-size: cover;
+
+}
+#Crea_win{
+	background-image: url("17545-01.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+#supp_win{
+	background-image: url("17973908-01.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#main-entry {
+  margin :8px;
+  padding :15px 45px;
+  opacity : 0.7;
+  background-color: rgba(120, 243, 252, 0.29);
+}
+
+#user_entry {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+}
+#Pass_entry  {
+font-family: "Times New Roman", Times, serif;
+font-size: 21px;
+}
+
+ 
+
+        #show_hide {background-image: linear-gradient(to right, #f46b45 0%, #eea849  51%, #f46b45  100%)}
+        #show_hide {
+            
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 2px #fff;
+            border-radius: 10px;
+            font-size: 16px;
+          }
+
+          #show_hide:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+         
+
+
+#creation_bar{
+  margin: 3px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 7px 7px;
+  text-decoration: none;
+	
+}
+#creation_bar:hover{
+	background-color: rgba(0, 0, 0, 0.18);
+}
+
+#view  text{
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+}
+
+#win  {
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+}
+
+
+
+#window { 
+  background-image: url("111-01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#window_main{
+  background-image: url("111.jpg");
+  
+ 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+        #login_button {background-image: linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%)}
+         #login_button {
+            margin: 10px;
+            padding: 15px 45px;
+            
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            font-size: 21px;
+            
+          }
+
+          #login_button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+#user_frame{
+  font-size: 21px;
+  color:#eee;
+}
+
+#Pass_frame{
+  font-size: 21px;
+  color:#eee;
+}
+
+
+#imagee{
+animation: bubble 9s linear infinite;
+}         
+
+@keyframes bubble{
+  0%{
+    -gtk-icon-transform: translateX(-100px);
+    opacity: 0;
+  }
+  50%{
+   
+    opacity: 0.75;
+  }
+  70%{
+   
+    opacity: 1;
+  }
+  100%{
+    -gtk-icon-transform: translateX(1800px);
+    opacity: 0;
+
+  }
+}
+
+
