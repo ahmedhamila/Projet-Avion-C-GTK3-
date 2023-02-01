@@ -19,4 +19,9 @@ Clone the repository and navigate to the project directory in your terminal. Com
 
 gcc-9 `pkg-config --cflags gtk+-3.0` -o PROJECT PROJECT_INTERFACE.c PROJECT.c `pkg-config --libs gtk+-3.0`
 
+Then run the executable file:
+
 ./PROJECT
+
+## Contributions
+Contributions are welcome! If you would like to improve the code, fix a bug or add a new feature, please fork the repository and create a pull request with your changes.
