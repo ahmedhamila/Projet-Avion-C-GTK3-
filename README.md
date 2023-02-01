@@ -17,3 +17,6 @@ This project was created as part of an academic project during the first year of
 ## Usage
 Clone the repository and navigate to the project directory in your terminal. Compile the code using the following command:
 
+gcc-9 `pkg-config --cflags gtk+-3.0` -o PROJECT PROJECT_INTERFACE.c PROJECT.c `pkg-config --libs gtk+-3.0`
+
+./PROJECT
