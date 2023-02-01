@@ -1,8 +1,19 @@
-# Projet-Avion-C-GTK3-
+# Airport Management System
 
+This project was created as part of an academic project during the first year of preparatory degree. The system manages an airport and its planes, including their departure and arrival times. The project uses C language and the GTK3+ Library to create a graphical user interface.
 
-comment installer GTK3+  
-https://www.ubuntubuzz.com/2018/11/setup-cgtk-programming-tools-on-ubuntu-for-beginners.html
-pour compiler :  gcc-7 `pkg-config --cflags gtk+-3.0` -o test PROJECT_INTERFACE.c PROJECT.c `pkg-config --libs gtk+-3.0`
+## Features
+- Add new planes to the airport
+- Record the departure and arrival times of planes
+- Display the flight schedule for a specific day
+- Search for a specific flight based on the flight number
+- Store and retrieve data from text files
+- User-friendly GUI created using GTK3+ Library
 
-Any Questions : https://www.facebook.com/ahmed.hamila66
+## Requirements
+- C compiler
+- GTK3+ Library
+
+## Usage
+Clone the repository and navigate to the project directory in your terminal. Compile the code using the following command:
+
